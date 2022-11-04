@@ -1,0 +1,51 @@
+// // double Extra large devices
+$screen-xxl-min: 1200px;
+
+// Large devices
+$screen-xl-max: 1200px;
+
+// small devices
+$screen-lg-max: 992px;
+
+// Small tablets 
+$screen-md-max: 768px;
+
+// mobile view 
+$screen-sm-max: 576px;
+
+
+
+// double Extra large devices
+@mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl {
+    @media (max-width: #{$screen-xl-max}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg {
+    @media (max-width: #{$screen-lg-max}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md {
+    @media (max-width: #{$screen-md-max}) {
+        @content;
+    }
+}
+
+// Small devices
+@mixin sm {
+    @media (max-width: #{$screen-sm-max}) {
+        @content;
+    }
+}
