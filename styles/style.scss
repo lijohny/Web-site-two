@@ -314,7 +314,7 @@ html {
 
         .content__one__first__element {
             width: 60%;
-            padding-top: 20px;
+            padding-top: 30px;
             padding-left: 20px;
 
             @include md {
@@ -352,7 +352,7 @@ html {
 
         .content__two__first__element {
             width: 60%;
-            padding-top: 20px;
+            padding-top: 33px;
             padding-left: 20px;
 
             @include md {
@@ -726,6 +726,7 @@ html {
 
             .fourth__contents__title {
                 // width: 80%;
+                line-height: 1.5;
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 400;
@@ -804,7 +805,6 @@ html {
             }
 
             .right__first {
-                text-align: center;
                 padding: 20px;
                 background: #F8F9FA;
                 margin-bottom: 29px;
@@ -824,6 +824,10 @@ html {
                     font-weight: 400;
                     font-size: 16px;
                     color: #222529;
+
+                    @include sm {
+                        text-align: center;
+                    }
 
                     @include md {
                         padding-top: 12px;
@@ -907,6 +911,7 @@ html {
 
         .contents__button--primary {
             // font styles
+            border: 1px solid;
             font-family: $font-roboto;
             font-style: normal;
             font-weight: $Normal;
@@ -921,7 +926,7 @@ html {
             // border color
             border-color: #367BF6;
             background-color: white;
-            border-style: solid;
+            // border-style: solid;
             box-shadow: none;
 
         }
@@ -933,6 +938,7 @@ html {
 
         .contents__button--secondary {
             // font styles
+            border: 1px solid;
             font-family: $font-roboto;
             font-style: normal;
             font-weight: $Normal;
@@ -949,7 +955,7 @@ html {
             // border color
             border-color: #6E757C;
             background-color: white;
-            border-style: solid;
+            // border-style: solid;
             box-shadow: none;
         }
 
@@ -962,6 +968,7 @@ html {
 
 // sixth section
 .sixth {
+    border: 1px solid #ededed;
     height: 128px;
     background-color: #F9F9F9;
 

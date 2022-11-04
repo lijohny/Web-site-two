@@ -311,7 +311,7 @@ html {
 }
 .third .third__content__one .content__one__first__element {
   width: 60%;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 20px;
 }
 @media (max-width: 768px) {
@@ -344,7 +344,7 @@ html {
 }
 .third .third__content__two .content__two__first__element {
   width: 60%;
-  padding-top: 20px;
+  padding-top: 33px;
   padding-left: 20px;
 }
 @media (max-width: 768px) {
@@ -689,6 +689,7 @@ html {
   }
 }
 .fourth .fourth__contents .fourth__left .fourth__contents__title {
+  line-height: 1.5;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -766,7 +767,6 @@ html {
   }
 }
 .fourth .fourth__contents .fourth__right .right__first {
-  text-align: center;
   padding: 20px;
   background: #F8F9FA;
   margin-bottom: 29px;
@@ -785,6 +785,11 @@ html {
   font-weight: 400;
   font-size: 16px;
   color: #222529;
+}
+@media (max-width: 576px) {
+  .fourth .fourth__contents .fourth__right .right__first .right__first__title {
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   .fourth .fourth__contents .fourth__right .right__first .right__first__title {
@@ -851,6 +856,7 @@ html {
   height: 128px;
 }
 .fifth .fifth__contents .contents__button--primary {
+  border: 1px solid;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -863,7 +869,6 @@ html {
   border-radius: 100px;
   border-color: #367BF6;
   background-color: white;
-  border-style: solid;
   box-shadow: none;
 }
 .fifth .fifth__contents .contents__button--primary:hover {
@@ -871,6 +876,7 @@ html {
   color: #003898;
 }
 .fifth .fifth__contents .contents__button--secondary {
+  border: 1px solid;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -884,7 +890,6 @@ html {
   margin-left: 6px;
   border-color: #6E757C;
   background-color: white;
-  border-style: solid;
   box-shadow: none;
 }
 .fifth .fifth__contents .contents__button--secondary:hover {
@@ -893,6 +898,7 @@ html {
 }
 
 .sixth {
+  border: 1px solid #ededed;
   height: 128px;
   background-color: #F9F9F9;
 }
