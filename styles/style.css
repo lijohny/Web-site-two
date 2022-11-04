@@ -161,7 +161,6 @@ html {
   }
 }
 .header .header__Nav__second .nav__items:hover {
-  font-weight: 600;
   color: #33373a;
   text-decoration: underline;
   transition: -webkit-text-decoration 1s;
